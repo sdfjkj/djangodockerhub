@@ -29,7 +29,7 @@ jobs:
         with:
           username: ${{secrets.DOCKERHUB_USERNAME}}
           password: ${{secrets.DOCKERHUB_TOKEN}}
-        #도커 허브 배포
+        #도커 허브 배포 kdfl
       - name: build and release to DockerHub
         env: 
           NAME: ${{secrets.DOCKERHUB_USERNAME}}
